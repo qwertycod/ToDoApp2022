@@ -1,0 +1,38 @@
+[{
+  "_id": {
+    "$oid": "5fc3af4198c5d7d2acbc4b8a"
+  },
+  "FirstName": "Alex",
+  "LastName": "Kumar",
+  "Username": "sagar",
+  "Password": "1234",
+  "IsAdmin": true,
+  "RefreshToken": "abc"
+},{
+  "_id": {
+    "$oid": "5fc53f77824e72af0bbfd57a"
+  },
+  "FirstName": "Kelly",
+  "LastName": "Parker",
+  "Username": "Kelly",
+  "IsAdmin": true,
+  "Password": "1234"
+},{
+  "_id": {
+    "$oid": "5fc540bd8d03fc1c6d8a80a0"
+  },
+  "FirstName": "Ryan",
+  "LastName": "Andrew",
+  "Username": "Ryan",
+  "IsAdmin": true,
+  "Password": "1234"
+},{
+  "_id": {
+    "$oid": "5fc549373220334a405eb5f0"
+  },
+  "FirstName": "Peter",
+  "LastName": "Parker",
+  "Username": "Peter",
+  "IsAdmin": false,
+  "Password": "1234"
+}]

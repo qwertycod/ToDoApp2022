@@ -1,0 +1,27 @@
+[{
+  "_id": {
+    "$oid": "5fd8d5cb6d975404649a1e61"
+  },
+  "Name": "Alex",
+  "UserId": "5fc3af4198c5d7d2acbc4b8a",
+  "Year": "1",
+  "CourseId": "courseId"
+},{
+  "_id": {
+    "$oid": "5fd8d5cb6d975404649a1e62"
+  },
+  "Name": "Kelly",
+  "UserId": "5fc53f77824e72af0bbfd57a"
+},{
+  "_id": {
+    "$oid": "5fd8d5cb6d975404649a1e63"
+  },
+  "Name": "Ryan",
+  "UserId": "5fc540bd8d03fc1c6d8a80a0"
+},{
+  "_id": {
+    "$oid": "5fd8d5cb6d975404649a1e64"
+  },
+  "Name": "Peter",
+  "UserId": "5fc549373220334a405eb5f0"
+}]
