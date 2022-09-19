@@ -1,0 +1,120 @@
+.App {
+  text-align: center;
+}
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.deleteLogo, .doneLogo {
+  height: 25px;
+  cursor: pointer;
+}
+
+.finished{
+  background: lightgreen;
+}
+.unFinished{
+  background: lightpink;
+}
+.headerDiv > div{
+display: inline-block;
+padding: 10px;
+}
+/* 
+tr.finished td{ 
+  border:2px solid green;
+}
+
+tr.unFinished td{ 
+  
+} */
+#timingsMainDiv > div {
+  display: inline-block;
+  margin: 15px;
+  border: 1px solid
+}
+img.l2{
+  width: 80px;
+  left: -127px;
+  position: relative;
+}
+img{
+  cursor: pointer;
+}
+.computer{
+  position: relative;
+    left: 40px;
+}
+.startStop{
+  width: 60px;
+  top: -7px;
+    position: relative;
+}
+.startTime{
+  display: inline-block;
+    font-size: 31px;
+    padding: 10px;
+    border: 5px solid lightblue;
+    width: 250px;
+}
+.overlay{
+  /* height: 100%; */
+  opacity: 0.5;
+  overflow: hidden;
+  background-color: lightgray;
+}
+.loader{
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  height: 100%;
+  z-index: 9999;
+}
+.loader svg{
+  position: relative;
+  top:45%;
+}
+.mainContainer {
+  margin: auto 10px;
+  width: auto;
+  height: 2000px;
+}
+.wall { 
+  /* background: url(assets/w2.jpg) no-repeat center center fixed;  */
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+/* #loaderComponent {display: none;} */
