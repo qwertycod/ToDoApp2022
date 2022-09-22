@@ -8,3 +8,5 @@ Open the app through the solution (.sln) ToDoApp.sln file
 
 Default user - Alex, password - 1234
 more users can be found in mongodb table > users.json
+
+Connect and watch our blog bost - https://qwertycod.com/ for more apps and related topics....
