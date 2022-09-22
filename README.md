@@ -2,6 +2,9 @@ This is an React + Redux + (Loader image enabled) + ASP.Net Core C# + JWT + Auth
 
 You will need to install Mongo Db and save the json table data there. Database name = ToDoDb
 
-Run in Dot net core 5.1 version using Visual studio 2019 or plus.
+Run in Dot net Core 5.1 version using Visual studio 2019 or Dot net core 6 version in Visual studio 2022 or plus
 
 Open the app through the solution (.sln) ToDoApp.sln file
+
+Default user - Alex, password - 1234
+more users can be found in mongodb table > users.json
