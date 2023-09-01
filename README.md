@@ -10,3 +10,7 @@ Default username - Kelly, password - 1234
 more users can be found in mongodb table > users.json
 
 Connect and watch our blog bost ( not live from Aug 23 ) - [https://qwertycod.com/](https://qwertycod.com/creating-a-react-app-with-dotnet-core-as-backend-and-publishing-on-azure/) for more apps and related topics....
+
+It appears like this on successful login:
+
+![image](https://github.com/qwertycod/ToDoApp2022/assets/112320985/b41a5013-8561-49b1-b139-d82ead244438)
