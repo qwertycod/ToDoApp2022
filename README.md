@@ -30,7 +30,8 @@ Next we will use this port Id in our project's appsettings.json file in the root
       "DatabaseName": "ToDoDb"
     },
 
-Second way is without docker and it is to install Mongo Db directly in the machine.
+Second way is without docker and it is to install Mongo Db directly in the machine. For this we dont need to make any change in the appSettings.json as Port is 27017 in this case.
+
 
 In both cases, after getting the MongoDb running, we can open it via Mongo compass and then crate a Database(name = ToDoDb),  then save json tables data there, tables/collections json files are there in MongoDB tables <a href="https://github.com/qwertycod/ToDoApp2022/tree/main/Mongodb%20tables">folder<a/>
 
