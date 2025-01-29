@@ -1,4 +1,4 @@
-This is an React + Redux + (Loader image enabled) + ASP.Net Core C# + JWT + Authorization + API + Mongo DB app
+This is an React + Redux + (Loader image enabled) + ASP.Net Core C# + JWT + Authorization + API + cache + Mongo DB app
 
 You will need MongoDb to run the app, MongoDb can be installed via docker or directly downloading.
 
