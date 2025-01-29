@@ -7,7 +7,7 @@ import store from './redux/store'
 import UserContainer from './components/UserContainer';
 import Dashboard from './components/Dashboard'; 
 import { createStore } from 'redux';
-import Timings from './components/Timings';
+import Student from './components/Student';
 import {BrowserRouter as Router, Link, NavLink, Redirect, Prompt } from 'react-router-dom'
 
 import { Component } from 'react';  
@@ -55,7 +55,7 @@ class App extends Component {
             <Loader type="Circles" className="loader" color="#00BFFF"/>
             </div>
             <div id="app-main-container"  className="overlay wall">
-            <div >
+            <div>
             {/* <ul>
               <li>
                 <NavLink to="/" activeStyle={activeLinkStyle} exact>Home</NavLink>
@@ -72,7 +72,7 @@ class App extends Component {
             </ul>
               {/* <UserContainer /> */}
               {/* <ToDoContainer />*/}
-            <Route path="/timings" exact component={Timings}></Route>
+             <Route path="/student"  component={Student}></Route>
             <Route path="/" exact component={Dashboard}></Route>
             <Route path="/timings/:word" exact strict component={testFunctionalComp}></Route>
             <Route path="/ToDoContainer" exact strict component={ToDoContainer}></Route>

@@ -3,6 +3,8 @@ using System;
 using System.Collections.Generic;
 using System.Net;
 using ToDoApp;
+using ToDoApp.Helper;
+using ToDoApp.Models;
 
 namespace ToDoApi.Controllers
 {
@@ -12,15 +14,19 @@ namespace ToDoApi.Controllers
     public class ToDoItemController : Controller
     {
         private readonly ToDoService _toToService;
+        private readonly ICacheService _cacheService;
 
-        public ToDoItemController(ToDoService toToService)
+
+        public ToDoItemController(ToDoService toToService, ICacheService cacheService)
         {
             this._toToService = toToService;
+            this._cacheService = cacheService;
         }
         [HttpGet]
         public ActionResult<List<ToDoItem>> Get()
         {
-            var r = _toToService.Get();
+             var r =  this._cacheService.GetOrAdd("TodoList",  () => _toToService.Get());
+           // var r = _toToService.Get();
             return r;
         }
         public ActionResult Index(int i)
@@ -45,7 +51,7 @@ namespace ToDoApi.Controllers
         [Route("GetByUserId/{id}")]
         public ActionResult<List<ToDoItem>> GetByUserId(string id)
         {
-            var r = _toToService.GetByUserId(id);
+            var r = this._cacheService.GetOrAdd("getUserById_" + id, () =>  _toToService.GetByUserId(id));
             return r == null ? NotFound() : (ActionResult<List<ToDoItem>>)r;
         }
 

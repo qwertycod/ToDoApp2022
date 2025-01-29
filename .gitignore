@@ -1,0 +1,9 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/ToDoApp/obj
+/.vs
+/ToDoApp/bin/Debug/net9.0
+/ToDoApp/ClientApp/node_modules
+/ToDoApp/ClientApp/build
